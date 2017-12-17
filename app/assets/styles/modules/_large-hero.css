@@ -1,0 +1,73 @@
+.large-hero{
+	border-bottom: 10px solid  #FFA500;
+
+	position: relative;
+	
+	&__image{
+		display: block;
+	
+		
+	}
+	
+	
+
+&__text-content
+	{
+		padding-top: 88px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+	width: 100%;
+	text-align: center;
+		
+		@mixin atMedium{
+			padding-top: 50px;
+		}
+	}
+	
+	&__title {
+	font-weight: 300;
+    margin: 0;
+	font-size: 2.4rem;
+	animation-duration: 1s;
+		animation-delay: 1s;
+		
+		@mixin atSmall{
+			font-size: 3.4rem;
+			
+		}
+	
+}
+	
+
+&__subtitle 
+		{
+	font-weight: 200;
+	font-size: 1.1rem;
+			margin: 0;
+			animation-duration: 1s;
+		animation-delay: 1s;
+			
+			@mixin atSmall{
+			font-size: 2rem;
+			}
+}
+	
+	&__description{
+	
+		font-size: 1.1rem;
+		font-weight: 200;
+		text-shadow: 2px 2px 0 rgba(0, 0, 0, .1);
+		margin: 0;
+		
+		
+		@mixin atSmall{
+			font-size: 2rem;
+		}
+	}
+}
+
+
+
+
