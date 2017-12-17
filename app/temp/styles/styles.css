@@ -3811,13 +3811,15 @@ a{
 }
 
 .large-hero{
-	border-bottom: 10px solid  #FFA500;
+	border-bottom: 10px solid  #f8cb18;
 
 	position: relative;
 }
 
 .large-hero__image{
 		display: block;
+	
+		opacity: 0.9;
 	
 		
 	}
@@ -3843,7 +3845,8 @@ a{
 	}
 
 .large-hero__title {
-	font-weight: 300;
+	font-weight: 600;
+		
     margin: 0;
 	font-size: 2.4rem;
 	-webkit-animation-duration: 1s;
@@ -3856,15 +3859,16 @@ a{
 @media (min-width: 480px){
 
 .large-hero__title {
-			font-size: 3.4rem
+			font-size: 4rem
 	
 }
 	}
 
 .large-hero__subtitle 
 		{
-	font-weight: 200;
-	font-size: 1.1rem;
+	font-weight: 400;
+	font-size: 1.9rem;
+	
 			margin: 0;
 			-webkit-animation-duration: 1s;
 			        animation-duration: 1s;
@@ -3876,7 +3880,7 @@ a{
 
 .large-hero__subtitle 
 		{
-			font-size: 2rem
+			font-size: 2.9rem
 }
 	}
 
@@ -4021,7 +4025,7 @@ a{
 .page-section {
 	
 	padding: 1.2rem 0;
-	background-color: rgba(229,225,134, .6);
+	background-color: rgba(248,203,24, .3);
 	
 	
 	
@@ -4266,7 +4270,7 @@ a{
 
 .site-header {
     position: fixed;
-    background-color: rgba(255,165,0, .7)
+    background-color: rgba(248,203,24, .7)
 }
 
     .site-header--dark {
@@ -4295,12 +4299,12 @@ a{
     top: 0;
     left: 50%;
 	display: block;
-	  margin: 0 auto;
-	  color: #ef2200;
-	  background-color: 	#FFF;
-	  border: solid 2px #f97300;
+	  margin: 3px auto;
+	  color: #760042;
+	  background-color: #FFF;
+	  border: solid 1.5px #760042;
 	  border-radius: 50%;
-	   padding: 9px 9px;
+	   padding: 6px 6px;
 	  -webkit-transition: -webkit-transform .8s ease-in-out;
 	  transition: -webkit-transform .8s ease-in-out;
 	  transition: transform .8s ease-in-out;
@@ -4316,8 +4320,8 @@ a{
 		   -webkit-transform: rotate(360deg);
 		 
 		           transform: rotate(360deg);
-		  -webkit-box-shadow: 0px 0px 1px 1px #ef2200;
-		          box-shadow: 0px 0px 1px 1px #ef2200; 
+		  -webkit-box-shadow: 0px 0px 1px 1px #760042;
+		          box-shadow: 0px 0px 1px 1px #760042; 
 		  
 		  
 	  }
@@ -4523,11 +4527,11 @@ a{
 	}
 
 .footer{
-	background-color: rgba(255,165,0, .75);
+	background-color: rgba(248,203,24, .8);
 	display: block;
 	height:7rem;
 	
-	color: #760042;
+	
 	padding: 1rem;
 	text-align: center;	
 }

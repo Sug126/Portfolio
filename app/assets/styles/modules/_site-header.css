@@ -14,7 +14,7 @@
   
   @mixin atMedium {
     position: fixed;
-    background-color: rgba(255,165,0, .7);
+    background-color: rgba(248,203,24, .7);
 
     &--dark {
       background-color: rgba(219,160,34, .85);
@@ -39,12 +39,12 @@
     top: 0;
     left: 50%;
 	display: block;
-	  margin: 0 auto;
-	  color: #ef2200;
-	  background-color: 	#FFF;
-	  border: solid 2px #f97300;
+	  margin: 3px auto;
+	  color: #760042;
+	  background-color: #FFF;
+	  border: solid 1.5px #760042;
 	  border-radius: 50%;
-	   padding: 9px 9px;
+	   padding: 6px 6px;
 	  transition: transform .8s ease-in-out;
 	  cursor: pointer;
 	  
@@ -54,7 +54,7 @@
 	  &:hover{
 		 
 		   transform: rotate(360deg);
-		  box-shadow: 0px 0px 1px 1px #ef2200; 
+		  box-shadow: 0px 0px 1px 1px #760042; 
 		  
 		  
 	  }
