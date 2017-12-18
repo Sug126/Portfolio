@@ -1,7 +1,7 @@
 .headline{
 	font-weight: 200;
 	font-size: 1.9rem;
-	color: #760042;
+	color: #455356;
 	
 	@mixin atSmall{
 		font-size: 2.875rem;

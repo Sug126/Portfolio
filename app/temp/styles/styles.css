@@ -4044,7 +4044,7 @@ a{
 .headline{
 	font-weight: 200;
 	font-size: 1.9rem;
-	color: #760042;
+	color: #455356;
 }
 
 @media (min-width: 480px){
@@ -4270,7 +4270,7 @@ a{
 
 .site-header {
     position: fixed;
-    background-color: rgba(248,203,24, .7)
+    background-color: rgba(258,200,0, .7)
 }
 
     .site-header--dark {
@@ -4527,11 +4527,10 @@ a{
 	}
 
 .footer{
-	background-color: rgba(248,203,24, .8);
+	background-color: rgba(254,200,0, .8);
 	display: block;
 	height:7rem;
-	
-	
+	color: #455356;
 	padding: 1rem;
 	text-align: center;	
 }
@@ -4539,7 +4538,6 @@ a{
 .footer__text{
 		display: block;
 		margin-bottom: 2rem;
-		font-weight: 200;
 	}
 
 @media (min-width: 800px){
@@ -4639,7 +4637,7 @@ a{
 		margin-top: .7em;
 		margin-bottom: .3rem;
 		text-align: center;
-			color: #760042;
+			color: #455356;
 	}
 
 @media (min-width: 480px){
@@ -4655,7 +4653,7 @@ a{
 	font-size: 2.55rem;
 	font-weight: 200;
 	text-align: center;
-	color: #760042;
+	color: #455356;
 }
 
 @media (min-width: 480px){

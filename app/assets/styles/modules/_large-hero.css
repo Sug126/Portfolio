@@ -23,6 +23,7 @@
 	width: 100%;
 	text-align: center;
 		
+		
 		@mixin atMedium{
 			padding-top: 50px;
 		}
