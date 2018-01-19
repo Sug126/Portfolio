@@ -1,17 +1,19 @@
 body{
-	font-family: 'Slabo', serif;
-	
+font-family: 'Raleway', sans-serif;
+margin: 0;
+
 }
 
-img{
-	max-width: 100%;
+
+img {
 	height: auto;
-}
-
-*{
-	box-sizing: border-box;
+	max-width: 100%;
 }
 
 a{
-	color: #dba022;
+	text-decoration: none;
 }
+
+
+
+

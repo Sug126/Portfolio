@@ -1,15 +1,7 @@
-.page-section {
+.page-section{
+	padding: 1.5rem 0;
 	
-	padding: 1.2rem 0;
-	background-color: rgba(248,203,24, .3);
-;
-	
-	
-	@mixin atMedium{
-		padding: 4rem 0;
+	@mixin atSmall{
+		padding: 4.5rem 0;
 	}
-	
-	
-	
 }
-

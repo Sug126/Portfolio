@@ -1,184 +1,131 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="https://fonts.googleapis.com/css?family=Cookie|Sacramento|Slabo+27px" rel="stylesheet">
-  <title>Sugandha Rao Portfolio</title>
-  <meta name="keywords" content="portfolio, Sugandha Rao, mobile-first, HTML, CSS, Javascript, nodejs">
-  <meta name="description" content="web developer portfolio">
-  
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  
-  <!--build:css assets/styles/style.css-->
-<link rel="stylesheet" href="temp/styles/styles.css">
-
-<!--endbuild -->
-</head>
-<body>
-
-  <header class="site-header animated fadeInDown">
-   <div class="wrapper">
-  	 <div class="site-header__logo">
-  	 		<strong>SR</strong>
-  	 </div>
-   
-   	 <div class="site-header__menu-icon">
-   	 	
-		 <div class="site-header__menu-icon__middle"></div>
-		
-   	 </div>
-   	<div class="site-header__menu-content">
-  		 
-   		 <div class="site-header__btn-container">
-   	 	 <a href="#" class=" btn btn--wine open-modal">Get in Touch</a>
-   	 </div>
-   
-    <nav class="primary-nav  primary-nav--pull-right">
-      <ul>
-        <li><a href="#About" id="About-link">About</a></li>
-        <li><a href="#Projects" id="Projects-link">Projects</a></li>
-        <li><a href="assets/images/Sugandha_Resume.pdf" target="_blank" id="Resume-link">Resume</a></li> 
-      </ul>
-    </nav>
-   	</div>
-   </div>
-  </header>
-
-  <div class="large-hero">
-
-  
-  <picture>
-	   <source srcset="assets/images/hero-bg.jpg 1920w, assets/images/hero-bg-hi-dpi.jpg 3840w" media="(min-width:1380px)">
-	   <source srcset="assets/images/hero-bg-medium.jpg 1380w, assets/images/hero-bg-medium-hi-dpi.jpg, 2760w" media= "(min-width:990px)">
-	   <source srcset="assets/images/hero-bg-small.jpg 990w, assets/images/hero-bg-small-hi-dpi.jpg 1980w" media="(min-width:640px)">
-
-		<img srcset="assets/images/hero-bg-smaller.jpg 640w, assets/images/hero-bg-smaller-hi-dpi.jpg 1280w" alt="Worskstation" class="large-hero__image">
-   </picture>
-    <div class="large-hero__text-content">
-    <div class="wrapper">
-    	<h1 class="large-hero__title animated zoomIn">Front-end Devleoper</h1>
-   		 <h2 class="large-hero__subtitle animated fadeInUp">Responsive mobile-first, HTML, JavaScript</h2>
-    	
-    	
-        
-    </div>
-
-	  </div>
-  </div>
-  
-
-  <div id="About" class="page-section Page-section__About" data-matching-link="#About-link">
-   <div class="wrapper">
-   
-    	
-    <div class="row row--gutters">
-    	<div class="row__medium-4 row__medium-4--large row__b-margin-until-medium">  
-<div class="About-item">
-	  <picture>
-            <source sizes="404px" srcset="assets/images/SR.jpg 404w, assets/images/SR-hi-dpi.jpg 808w" media="(min-width: 1020px)">
-            <source sizes="320px" srcset="SR_portrait.jpg 382w, assets/images/SR_portrait-hi-dpi.jpg 764w" media="(min-width: 800px)">
-            <img srcset="assets/images/SR_landscape.jpg 800w, assets/images/SR_landscape-hi-dpi.jpg 1600w" alt="Sugandha Rao web developer">
-          </picture>
-</div>
-           
-        
-   	
-   	</div>
-    	<div class="row__medium-8 row__medium-8--smaller About-item" >
-				
-	<div class="generic-content-container">
-			<h2 class="headline headline--no-t-margin headline--About">About me...</h2>
-		
-		<p>Hello, my name is Sugandha. I am a <a href="#">front-end developer</a> living in London UK.</p><p>Everything started with a passion to web technologies  and learn new technology trends to enhance my skill set.  I enjoy challenges and finding solutions for complex user requirement. Coming from a content management background I initially started on the pre-sales support side, but swiftly discovered my enjoyment of coding at my last job at Deloitte and moved into development. My earliest projects were sites on SharePoint that I developed for Deloitte internal clients using HTML, CSS and Jquery.</p>
-			<p>When not online, I can be found Painting with oils, searching for the perfect vintage items for home, trying out a new recipe in the kitchen, and looking for exciting travel destinations.
-
- </p>
-			<strong>My Skills</strong>
-			<p>I focus on writing clean, elegant and efficient code. I involve the use of tools such as Gulp, Babel, webpack, Node.js and NPM to speed up development.</p>
-			
-	</div>
-			
-			</div>
-  
-     
-
-	   </div>
-			  </div>
-</div>
+	<meta charset="UTF-8">
 	
-   <div id="Projects"  data-matching-link ="#Projects-link" class="page-section page-section--blue">
-    <div class="wrapper">
-      <h2 class="section-title section-title--Projects"> Personal<strong> Projects</strong></h2>
-
-      <div class="row row--gutters-large generic-content-container">
-        
-        <div class="row__medium-6">
-
-         <div class="Project-item">
-         <a href="https://sug126.github.io/travel/"> <img src="assets/images/clear-view-escapes.jpeg" alt="project" class="Project-item-image"></a>
-         </div>
-          
-    
-        </div>
-
-    <div class="row__medium-6">
-          <div class="Project-item">
-           
-            <h3 class=""><a href="https://sug126.github.io/travel/" target="blank">Fictional Travel site</a></h3>
-            <div class="generic-content-container">
-            <p>This site was built using the modern skill-set of a professional web developer by Focusing on site speed with the mobile-first performance philosophy. Utilized <strong> Git, GitHub, and command-line basics </strong>to manage version control of the site. Learned JavaScript basics like Object-oriented Programming and enhanced my CSS knowledge.</p>
-          
-				<p>This site was built byleveraging <strong>Node.js tools like NPM and Gulp</strong>, <strong> ES6 module pattern (Babel & webpack).</strong></p>
-				
-          
-            </div>
-          </div>
-          
-  
-        </div>
-  	
-   	 </div>
-    </div>
-  </div>
-
-  <div class="footer">
-  	<div class="wrapper">
-  		 <p><span class="site-footer__text">Copyright &copy; 2017 Sugandha Rao </span>  <a href="mailto:raosugandha12@gmail.com" class="button">Mail Me <i class="fa fa-envelope "></i></a></p>
-  		 
-  		 
-  	</div>
+	<title>Portfolio- Sugandha Rao</title>
+	<!--build: css  /assets/styles/styles.css-->
+	<link rel="stylesheet" href="temp/styles/styles.css">
+	<!---end build-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Merriweather|Raleway" rel="stylesheet">
+<link rel="shortcut icon" href="assets/Images/favi.jpg" type="image/x-icon">
+	
+	 <meta name="keywords" content="portfolio, Sugandha Rao, mobile-first, HTML, CSS, Javascript, nodejs, London, front-end development">
+  <meta name="description" content="web developer portfolio">
+</head>
+<body>  
+	<div id="particles-js">
+		<div class="header wrapper">	
+		<h1> 
+			<span class="header-title">Sugandha Rao</span> <br>
+			<span class="header-subtitle">Front end Developer</span>		
+		</h1>
+        <h3 class="description">
+		 <span>
+			<a href="#About"  class="description-link" id="About-link">About</a>
+			<a href="#Projects"   class="description-link"  id="Projects-link">Projects</a>
+		 </span>
+        </h3>
+   
+	   <span>
+			 <a class="header__social-links" href="mailto:raosugandha12@gmail.com"><i class="fa fa-envelope-square fa-2x" aria-hidden="true"></i></a>
+			 <a class="header__social-links" href="https://github.com/Sug126" target="_blank" ><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a> 
+			<a class="header__social-links" href="www.linkedin.com/in/sugandha-rao" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+	</span><br>
+	<span>
+			<a href="#About"><i class="header__arrow fa fa-chevron-down fa-2x animated bounce" aria-hidden="true"></i></a>
+	</span>	
+		</div>
 	</div>
-  
-  <div class="modal">
- <div class="modal__inner">
-	   	<img src="assets/images/modal_pic.jpg" class="modal__image" alt="">
- 	  <h2 class="section-title  section-title--less-margin"> 	 Get in <strong>Touch</strong></h2>
-   <div class="wrapper wrapper--narrow"> 
-   	<p class="modal__description">
-  
-   I'm currently available for freelance projects or full-time work. If you have something suitable for me, please get in touch using one of the methods below. 
-   		</p>
-   	</div>
-   	<div class="social-icons">
-   		<a href="https://github.com/Sug126" target="_blank" class="social-icons__icon" ><i class="fa fa-github fa-2x" aria-hidden="true"></i>
-   			
-   		</a>
-   		
-   		<a href="www.linkedin.com/in/sugandha-rao" target="_blank" class="social-icons__icon"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
-   			
-   		<a href="mailto:raosugandha12@gmail.com" class="social-icons__icon"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a>
-   		
-   		
- </div>
-   	</div>
-   	<div class="modal__close">
-   		X
-   	</div>
-  </div>
-  
-  <!-- build:js assets/scripts/App.js -->
- <script src="/temp/scripts/App.js"></script>
-  <!-- endbuild -->
-  
+	
+<!----About Section begins---->
+
+<div class="about page-section" id="About" data-matching-link ="#About-link">
+
+ <div class="wrapper"> 
+	<h2 class="about-headline"> About
+
+	</h2>
+	<section class="section-about">
+	<p>Hello there! My name is Sugandha Rao. I'm a  <strong style="color: #E4B800">front-end web developer</strong>  based in London, UK.  I am a driven individual with excitement and energy, always learning, and never bored. I am eager to keep up with the latest technologies, and I'm always up for a challenge.As I continue to gain experience in this ever expanding tech industry I hope to grow with experience and never stop learning new things.	</p> <p>While my focus is  <strong style="color: #E4B800"> mobile-first responsive websites,  HTML, CSS and JavaScript</strong>, my goal over the next several years is to expand my knowledge of the JavaScript and its libraries. On a daily basis you'll find me using HTML, CSS / BEM, JavaScript, NPM and Git. Currently, I am learning Angular, nodeJs and Gulp.</p>  <p>When I'm not behind a computer screen, I'm somewhere out there exploring, or at home painting with oils.</p>	
+
+	</section>
+
+	
+	
+</div> 	
+	
+	
+</div>	
+
+	<!----Projects Section begins--->	
+<div id="Projects" class="page-section Projects" data-matching-link= "#Projects-link">
+	<div class="wrapper">
+		<h2 class="Projects-headline"> Projects</h2>
+		<div class="section-projects">
+		<p><img class="section-img" src="assets/Images/travel-1.jpg" alt=""></p>
+		<h4> <a class="section-link" href="https://sug126.github.io/travel/" target="_blank">Fictional Travel site</a></h4>
+		<p>This fictional site was built during a web developer bootcamp course.</p>
+		<p class="section-skills"><strong>Node.js | NPM | Gulp | ES2015</strong></p><br>
+		
+		<p><img class="section-img section__padding" src="assets/Images/website.jpg" alt=""></p>	
+			<h4> <a class="section-link" href="https://sug126.github.io/MusicalWebsite/" target="_blank" style="text-decoration: none;">Patatap Clone</a></h4>
+			<p>This musical site is a clone of original <a href="http://patatap.com/" target="_blank">Patatap site</a>.</p>
+		<p class="section-skills"><strong>JavaScript | Paper.js | Howler.js</strong></p><br>
+				<br>
+				<p><img class="section-img section__padding" src="assets/Images/todo.jpg" alt=""></p>	
+			<h4> <a class="section-link" href="https://sug126.github.io/ToDoList/" target="_blank">To-DoApp</a></h4>	
+				<p class="section-skills"><strong>JavaScript | HTML | CSS</strong></p>				
+		</div>
+
+	</div>	
+	</div>
+	
+
+<div  id="contact" class="contact page-section">
+<div class="wrapper">
+	<h3 class="contact-headline">contact me</h3>
+	<p class="contact-text">Want to say hi? Have a project in mind? I'd love to hear from you! Feel free to send me a message and I will get back to you shortly.</p>
+	<a href="#" class="contact-button open-modal">get in touch</a>
+	<p class="contact__footer"></p>
+	</div>
+	
+</div>	
+	
+	<div class="modal page-section">
+		<div class="modal__inner">
+		<h2 class="contact-headline contact-headline__margin">Get in Touch</h2>
+		<div class="wrappe">
+		<p class="modal__description">Want to say hi? Have a project in mind? <br> I'd love to hear from you! <br>Feel free to send me a message and I will get back to you shortly</p>
+			
+		</div>
+		<div class="social-icons">
+			  <span>
+			 <a class ="social-icons__icon" href="mailto:raosugandha12@gmail.com"><i class="fa fa-envelope-square fa-2x" aria-hidden="true"></i></a>
+			 <a class ="social-icons__icon" href="https://github.com/Sug126" target="_blank" ><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a> 
+			<a class ="social-icons__icon" href="www.linkedin.com/in/sugandha-rao" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+	</span>
+		</div></div>
+<div class="modal__close"><i class="fa fa-play" aria-hidden="true"></i>
+</div>		
+	</div>       
+	
+	
+	
+	
+<script src="assets/scripts/particles.js"></script>
+
+
+
+<script src="assets/scripts/app.js">
+	</script>
+	
+
+	
+	
+	<script src="temp/scripts/script.js"></script>
+	
+	
 </body>
 </html>
